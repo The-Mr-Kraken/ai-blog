@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+/* Smooth font rendering */
+html {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+/* Background + subtle noise layer */
+body {
+  @apply bg-white text-primary font-inter;
+  background-image: url('/noise.png');
+  background-blend-mode: soft-light;
+  background-size: 300px;
+}
+
+/* Page transition base style */
+.page-transition {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Prevent scrollbars jumping */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}

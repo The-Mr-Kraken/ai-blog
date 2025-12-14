@@ -1,0 +1,40 @@
+{
+  "name": "ai-blog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.36",
+    "autoprefixer": "^10.4.17",
+    "clsx": "^2.1.1",
+    "contentlayer": "^0.3.4",
+    "@tailwindcss/typography": "^0.5.10",
+    "framer-motion": "^11.0.6",
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^0.299.0",
+    "next": "15.0.3",
+    "next-mdx-remote": "^5.0.0",
+    "postcss": "^8.4.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remark-gfm": "^4.0.0",
+    "sharp": "^0.33.3",
+    "tailwindcss": "^3.4.4",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "15.0.3",
+    "prettier": "^3.3.3",
+    "typescript": "^5.4.2"
+  }
+}
